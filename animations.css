@@ -1,0 +1,69 @@
+/* الحركات */
+
+
+/* تحريك النصوص للدخول من اليمين */
+@keyframes slideInFromRight {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+
+/* تحريك الصور للتكبير */
+@keyframes zoomIn {
+    from {
+        transform: scale(0.8);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+
+/* تحريك التمرير اللانهائي */
+@keyframes infiniteScroll {
+    0% {
+        background-position: 0% 0%;
+    }
+    100% {
+        background-position: 100% 0%;
+    }
+}
+
+
+/* تطبيق التحركات */
+
+
+/* حركة العناوين */
+h1, h2 {
+    animation: slideInFromRight 1s ease-in-out;
+}
+
+
+/* حركة الصور */
+img {
+    animation: zoomIn 1.5s ease-in-out;
+    transition: transform 0.3s;
+}
+
+
+img:hover {
+    transform: scale(1.1);
+}
+
+
+/* خلفية متحركة */
+body {
+    background: linear-gradient(90deg, #f4a261, #2a9d8f);
+    background-size: 200% 200%;
+    animation: infiniteScroll 10s linear infinite;
+
+
+}

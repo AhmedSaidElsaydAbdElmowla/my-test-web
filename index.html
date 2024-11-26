@@ -1,0 +1,131 @@
+
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+   <link rel="stylesheet" href="styles.css">
+   <link rel="stylesheet" href="animations.css">
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="صفحة ويب شاملة لجميع عناصر HTML الأساسية.">
+    <title> TEST MY FRONT END </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- رأس الصفحة -->
+    <header>
+        <h1>مرحبًا بكم في صفحتي </h1>
+        <nav>
+            <ul>
+                <li><a href="#section1">القسم الأول</a></li>
+                <li><a href="#section2">القسم الثاني</a></li>
+                <li><a href="#footer">التذييل</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!-- المحتوى الرئيسي -->
+    <main>
+        <!-- قسم 1 -->
+        <section id="section1">
+            <h2>القسم الأول</h2>
+            <p>هذه فقرة تحتوي على <strong>نص عريض</strong> و <em>نص مائل</em>.</p>
+            <p>هذا نص مميز باستخدام <mark>تاج التمييز</mark>.</p>
+            <img src="" alt="وصف الصورة">
+        </section>
+
+
+        <!-- قائمة -->
+        <section id="section2">
+            <h2>القسم الثاني: القوائم</h2>
+            <h3>قائمة غير مرتبة</h3>
+            <ul>
+                <li>عنصر 1</li>
+                <li>عنصر 2</li>
+                <li>عنصر 3</li>
+            </ul>
+            <h3>قائمة مرتبة</h3>
+            <ol>
+                <li>خطوة 1</li>
+                <li>خطوة 2</li>
+                <li>خطوة 3</li>
+            </ol>
+        </section>
+
+
+        <!-- جدول -->
+        <section>
+            <h2>جدول البيانات</h2>
+            <table>
+                <caption>جدول بسيط</caption>
+                <thead>
+                    <tr>
+                        <th>العنوان</th>
+                        <th>القيمة</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>الاسم</td>
+                        <td>محمد</td>
+                    </tr>
+                    <tr>
+                        <td>العمر</td>
+                        <td>25</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="2">نهاية الجدول</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+
+
+        <!-- نموذج -->
+        <section>
+            <h2>نموذج إدخال</h2>
+            <form action="submit.php" method="post">
+                <label for="name">الاسم:</label>
+                <input type="text" id="name" name="name" required>
+                <br>
+                <label for="email">البريد الإلكتروني:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <label for="message">رسالتك:</label>
+                <textarea id="message" name="message"></textarea>
+                <br>
+                <button type="submit">إرسال</button>
+            </form>
+        </section>
+
+
+        <!-- وسائط -->
+        <section>
+            <h2>الوسائط</h2>
+            <audio controls>
+                <source src="audio.mp3" type="audio/mpeg">
+                متصفحك لا يدعم تشغيل الصوت.
+            </audio>
+            <video controls>
+                <source src="video.mp4" type="video/mp4">
+                متصفحك لا يدعم تشغيل الفيديو.
+            </video>
+        </section>
+    </main>
+
+
+    <!-- تذييل -->
+    <footer id="footer">
+        <p>© 2024 جميع الحقوق محفوظة.</p>
+        <h1> Ahmed Saeed 2024 </h1>
+    </footer>
+</body>
+</html>
+
+
+
+

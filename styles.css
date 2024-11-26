@@ -1,0 +1,172 @@
+/* تنسيقات عامة */
+body {
+    font-family: bold , sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+
+/* رأس الصفحة */
+header {
+    background-color: #f50707;
+    color: #fff;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+
+header nav ul li {
+    display: inline;
+}
+
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1em;
+    transition: color 0.3s;
+}
+
+
+header nav ul li a:hover {
+    color: #f4a261;
+}
+
+
+/* المحتوى الرئيسي */
+main {
+    padding: 20px;
+}
+
+
+/* الأقسام */
+section {
+    margin-bottom: 30px;
+    padding: 15px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+section h2 {
+    color: #0a0909;
+    border-bottom: 2px solid #f4a261;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+
+/* القوائم */
+ul, ol {
+    padding-left: 20px;
+}
+
+
+ul li, ol li {
+    margin: 5px 0;
+}
+
+
+/* الجداول */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px 0;
+}
+
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+
+table th {
+    background-color: #f4a261;
+    color: #fff;
+}
+
+
+table caption {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+
+/* النموذج */
+form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+
+form input, form textarea, form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+
+form button {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+
+form button:hover {
+    background-color: #f4a261;
+}
+
+
+/* الوسائط */
+audio, video {
+    display: block;
+    margin: 10px 0;
+    max-width: 100%;
+}
+
+
+/* التذييل */
+footer {
+    background-color:  #f50707;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+footer p {
+    margin: 0;
+    font-size: 0.9em;
+}
+
